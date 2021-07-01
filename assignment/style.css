@@ -1,11 +1,12 @@
 /* Give your page a fun background color */
 html {
-  text-decoration: none;
+  /* text-decoration: none; not needed here for list dots to go away */
   background-color:  forestgreen;
 }
 /* Make the header and footer a different color from the background */
 footer {
-  padding: 60px;
+  padding: 40px;
+  margin: 4%; /*from edge of page*/
   background-color: orange;
 }
 header {
@@ -33,20 +34,20 @@ h2{
 
 /* Put a border around your image */
 .img {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 25px;
-  width: 32%;
-  border: gold solid 8px;
+  display: block; /*this was needed to center*/
+  margin-right: auto; /*this was needed to center*/
+  margin-left: auto; /*this was needed to center*/
+  margin-top: 25px; /* space between header and picture border*/
+  width: 20%; /*size of image*/
+  border: gold solid 8px; /* border around image and the thickness of the border line*/
 }
 
 /* Change the font-family of your list */
 ul {
   list-style: none;/*yes lucky guess!*/
-  text-decoration: none; /*WHY THIS NOT WORK!?*/
-  padding: 5px;
-  border: solid 6px;
+  margin: 5%;
+  padding: 10px;
+  border: solid 8px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
   font-size: x-large;
 }
