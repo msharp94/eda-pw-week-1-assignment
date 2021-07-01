@@ -28,7 +28,7 @@ p {
 }
 
 h2{
-    font-size: 50px;
+  font-size: 50px;
   text-align: center;
 }
 
@@ -44,12 +44,12 @@ h2{
 
 /* Change the font-family of your list */
 ul {
-  list-style: none;/*yes lucky guess!*/
+  list-style: none;/*yes lucky guess, for no dots!*/
   margin: 5%;
   padding: 10px;
-  border: solid 8px;
+  border: solid 16px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
-  font-size: x-large;
+  font-size: xx-large;
 }
 .factlist{
     text-decoration: none; /*WHY IDK?*/
