@@ -32,10 +32,12 @@ h2{
 }
 
 /* Put a border around your image */
-img {
+.img {
+  display: block;
+  margin-right: auto;
   margin-left: auto;
-  margin-top: auto;
-  margin: 0;
+  margin-top: 25px;
+  width: 32%;
   border: gold solid 8px;
 }
 
