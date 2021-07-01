@@ -1,11 +1,52 @@
 /* Give your page a fun background color */
-
+html {
+  text-decoration: none;
+  background-color:  forestgreen;
+}
 /* Make the header and footer a different color from the background */
-
+footer {
+  padding: 60px;
+  background-color: orange;
+}
+header {
+  margin: 0;
+  padding: 20px 0;
+  background-color: rgb(11, 80, 11);
+}
 /* Align the h1 containing your name in the center of the header*/
-
+h1 {
+  text-align: center;
+  font-family: fantasy;
+}
 /* Make your p tag a different color and italic */
+p {
+  text-align: center;
+  font-style: italic;
+  color: White;
+  font-size: 40px;
+}
+
+h2{
+    font-size: 50px;
+  text-align: center;
+}
 
 /* Put a border around your image */
+img {
+  margin-left: auto;
+  margin-top: auto;
+  margin: 0;
+  border: gold solid 8px;
+}
 
 /* Change the font-family of your list */
+ul {
+  text-decoration: none; /*WHY THIS NOT WORK!?*/
+  padding: 5px;
+  border: solid 6px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  font-size: x-large;
+}
+.factlist{
+    text-decoration: none; /*WHY IDK?*/
+}
